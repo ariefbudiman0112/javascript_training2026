@@ -1,0 +1,112 @@
+let caca = {
+    name:"caca",
+    berat:45,
+    tinggi:155,
+    hobi: ["Nonton","makan"],
+    sebutkanHobi: function(){
+        this.hobi.forEach((hobi,index) =>{
+            console.log(hobi);
+        });
+    },
+}
+
+caca.sebutkanHobi();
+
+const person = {
+    firstname:"Arief",
+    lastname: "Budiman",
+    age:31,
+}
+
+const phone = {
+    brand: "samsung",
+    model: "s26",
+};
+phone.price = 1250
+
+const movie ={
+    title:"Mission impossible",
+    year:"2025",
+    genre:["Action","Adventure"],
+    tampilkanGenre: function(){
+        this.genre.forEach((genres)=>{
+            console.log(genres);
+        });
+    },
+};
+
+movie.tampilkanGenre()
+
+const items = [
+    {
+        id:1,
+        name:"Laptop",
+        price:5000000,
+    },
+    {
+        id:2,
+        name:"hp",
+        price:2000000,
+    },
+    {
+        id:3,
+        name:"tablet",
+        price:8000000,
+    },
+    {
+        id:4,
+        name:"mouse",
+        price:200000,
+    },
+    {
+        id:5,
+        name:"keyboard",
+        price:1000000,
+    },
+];
+
+function addItem(name, price){
+    let id = items[items.length - 1].id+1;
+    items.push({
+        id,
+        name,
+        price,
+    });
+    console.log(´"$[name]")
+};
+
+const showItems = function(){
+    console.log("Items:");
+    items.forEach((item) => {
+        const{id,name,price} = item;
+        console.log(´$[id].$[name].Rp.$[price]´)
+    });
+}
+
+const removeItem = function(id){
+    items = items.filter((item) => item.id !== id);
+    console.log('Item with id $[id] has been removed');
+};
+
+const editItem = function(id,name,price){
+    items = items.map((item)=>{
+        if(item.id === id){
+            item.name =name;
+            item.price=price;
+        }
+        return item;
+    });
+    console.log('Item with id $[id] has been updated')
+};
+
+const findMaxPrice = function(){
+    let max = items[0];
+    items.forEach((item) =>{
+        if(max.price < item.price){
+            max = item;
+        }
+    });
+    console.log(max);
+}
+
+findMaxPrice()
