@@ -1,0 +1,37 @@
+[
+  {
+    "id": 2,
+    "task": "traveling",
+    "status": true
+  },
+  {
+    "id": 3,
+    "task": "Buat UI Todo",
+    "status": false
+  },
+  {
+    "id": 4,
+    "task": "Integrasi API",
+    "status": false
+  },
+  {
+    "id": 5,
+    "task": "Testing aplikasi",
+    "status": false
+  },
+  {
+    "id": 6,
+    "task": "jalan jalan",
+    "status": false
+  },
+  {
+    "id": 7,
+    "task": "kuliah",
+    "status": false
+  },
+  {
+    "id": 8,
+    "task": "amazing",
+    "status": false
+  }
+]

@@ -1,0 +1,59 @@
+{
+   "users": [
+      {
+         "username": "Arief",
+         "email": "arief@example.com"
+      },
+      {
+         "username": "Budi",
+         "email": "budi@example.com"
+      },
+      {
+         "username": "Citra",
+         "email": "citra@example.com"
+      }
+   ],
+   "types": [
+      {
+         "name": "Pekerjaan Rumah"
+      },
+      {
+         "name": "Pekerjaan Kantor"
+      },
+      {
+         "name": "Pekerjaan Pribadi"
+      }
+   ],
+   "todos": [
+        {
+             "task": "Belajar JSON",
+             "status": "true",
+             "UserId": 1,
+             "TypeId": 1
+        },
+        {
+             "task": "Setup project",
+             "status": "true",
+             "UserId": 2,
+             "TypeId": 2
+        },
+        {
+             "task": "Buat UI Todo",
+             "status": "false",
+             "UserId": 3,
+             "TypeId": 3
+        },
+        {
+             "task": "Integrasi API",
+             "status": "false",
+             "UserId": 1,
+             "TypeId": 2
+        },
+        {
+             "task": "Testing aplikasi",
+             "status": "false",
+             "UserId": 2,
+             "TypeId": 1
+        }
+     ]
+}

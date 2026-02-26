@@ -1,0 +1,27 @@
+[
+   {
+      "id": 1,
+      "task": "Belajar JSON",
+      "status": "done"
+   },
+   {
+      "id": 2,
+      "task": "Setup project",
+      "status": "done"
+   },
+   {
+      "id": 3,
+      "task": "Buat UI Todo",
+      "status": "progress"
+   },
+   {
+      "id": 4,
+      "task": "Integrasi API",
+      "status": "pending"
+   },
+   {
+      "id": 5,
+      "task": "Testing aplikasi",
+      "status": "pending"
+   }
+]
